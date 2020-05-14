@@ -37,12 +37,12 @@ console.log(volume);
 //Consumer Formula
 
 //9
-let tip = ((22.35 * 100) / 10);
-console.log(tip + '€');
-let tipOne = ((26.67 * 100) / 15);
-console.log(tipOne + '€');
-let tipTwo = ((35.92 * 100) / 20);
-console.log(tipTwo + '€');
+let tip = ((22.35 / 100) * 10) + 22.35;
+console.log(tip.toFixed(2) + '€');
+let tipOne = ((26.67 / 100) * 15) + 26.67;
+console.log(tipOne.toFixed(2) + '€');
+let tipTwo = ((35.92 / 100) * 20) + 35.92;
+console.log(tipTwo.toFixed(2) + '€');
 
 //Average
 
