@@ -1,7 +1,6 @@
-
-name = 'John';
-lastName = 'Smith';
-freeSpace = ' ';
+let lastName = "Smith";
+let name = 'John';
+let freeSpace = ' ';
 let city = 'Berlin';
 let ege = '43';
 let job = 'Teacher';

@@ -12,7 +12,7 @@ Q2. Sylvia's income is 500 dollars per week. How much does Sylvia makes every ye
 
 Q3. Calculate the percentage of 17/30. Expected output: number%
 
-**Geometry Formulas** 
+**** 
 
 Q4. Calculate the perimeter of a square. Assume each side is 4.75cm.
 
