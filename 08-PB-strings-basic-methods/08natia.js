@@ -23,12 +23,12 @@ console.log(check.includes("l"));
 console.log(check.includes("n"));
 
 //6
-let Bananas = 'Bananas';
-console.log(Bananas[0] + Bananas + Bananas[0]);
+let bananas = 'Bananas';
+console.log(bananas[0] + bananas + bananas[0]);
 
 //7
-let Scritch = 'Scritch';
-console.log(Scritch.substring(4, 7) + Scritch + Scritch.substring(4, 7));
+let scritch = 'Scritch';
+console.log(scritch.substring(4, 7) + scritch + scritch.substring(4, 7));
 
 //8
 
