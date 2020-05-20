@@ -51,11 +51,17 @@ console.log(Math.floor(Math.random() * 6) + 1);
 // expected output: 5..
 
 
-console.log(Math.ceil(Math.random() * 6) + 1);
+//console.log(Math.ceil(Math.random() * 6) + 1);
 // expected output: 7..
 
-console.log((Math.random() * 6) + 1);
+//console.log((Math.random() * 6) + 1);
 // expected output: 4.9272104593340895..
 
-console.log(Math.round(Math.random() * 6) + 1);
+//console.log(Math.round(Math.random() * 6) + 1);
 // expected output: 7..
+
+let min = Math.ceil(6);
+let max = Math.floor(1);
+for(let i = 1; i < 6; i++) {
+  console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+}
