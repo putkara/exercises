@@ -20,10 +20,10 @@ console.log(parseFloat(d));
 
 //3
 let number = 30;
-console.log((number % 2) == 0 ? number + ' is even' : number + ' is odd');
+console.log((number % 2) === 0 ? number + ' is even' : number + ' is odd');
 
 number = 939;
-console.log((number % 2) == 0 ? number + ' is even' : number + ' is odd');
+console.log((number % 2) === 0 ? number + ' is even' : number + ' is odd');
 
 number = 40.9;
-console.log((number % 2) == 0 ? number + ' is even' : number + ' is odd');
+console.log((number % 2) === 0 ? number + ' is even' : number + ' is odd');
