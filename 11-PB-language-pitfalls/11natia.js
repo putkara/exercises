@@ -1,5 +1,7 @@
 //1
-
+/* The NaN property represents "Not-a-Number" value.
+  This property indicates that a value is not a legal number.
+  The NaN property is the same as the Number.Nan property. */
 //a
 console.log(isNaN("hello"));
 // expected output:true
