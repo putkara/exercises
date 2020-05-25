@@ -1,3 +1,5 @@
+"use strict";
+
 //0
 
 let a = 'true';
@@ -32,15 +34,15 @@ console.log(x !== y);
 // expected output:true
 
 //c
-console.log(z !== y || x != y);
+console.log(z !== y && x !== y);
 // expected output:true
 
 //d
-console.log(x === z || x !== z);
+console.log(x !== z || x !== z);
 // expected output:true
 
 //e
-console.log(x * z >= 10 || x * y >= 100);
+console.log(x && z >= 10 || x &&y >= 100);
 // expected output:true
 
 //f
