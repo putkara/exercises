@@ -10,11 +10,12 @@ console.log(3 === "3" ? true : false);
 
 console.log(3 == "3" ? true : false); 
 // true, automatically String always wins
+//we need use === 
 
 //2
 
 let myCat = true;
-console.log(!myCat? true : false); // true
+console.log(!myCat? true : false); 
 // expected output:false
 
 
