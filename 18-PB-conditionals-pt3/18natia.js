@@ -42,7 +42,7 @@ if (aleezaAll > mAll && aleezaAll > lAll) {
   } else if (lAll > mAll && lAll > aleezaAll) {
     console.log(`Lis's team `);
   } else {
-    console.log("that is a draw")
+    console.log("that is a draw");
   } 
 
 
