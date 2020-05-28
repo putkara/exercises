@@ -35,21 +35,20 @@ console.log(mAll);
 
 
 
-if (aleezaAll > mAll || aleezaAll > lAll) {
+if (aleezaAll > mAll && aleezaAll > lAll) {
     console.log(`Alleza's team `);
-  } else if (mAll > aleezaAll || mAll > lAll) {
+  } else if (mAll > aleezaAll && mAll > lAll) {
     console.log(`Marys's team`);
-  } else if (lAll > mAll || lAll > aleezaAll) {
+  } else if (lAll > mAll && lAll > aleezaAll) {
     console.log(`Lis's team `);
-  } else if (lAll === mAll || lAll === aleezaAll) {
-    console.log(`=`);
+  } else {
+    console.log("that is a draw")
   } 
 
 
   
   
 
- 
 
 
     
