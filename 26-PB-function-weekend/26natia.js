@@ -1,4 +1,3 @@
-
 "use strict";
 
 const isWeekend = function (date1) {
@@ -10,5 +9,4 @@ const isWeekend = function (date1) {
       console.log("It's not weekend");
    }
 }
-
 isWeekend('2020-2-11');
