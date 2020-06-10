@@ -91,7 +91,7 @@ function calcSuppyCorrect(years, amount) {
         return "Too old";
     }
     leftYears = maxAge - years;
-    return leftYears * 365 * amount;
+    return `You will need ${leftYears * 365 * amount} bars of chocolate (${amount} a day) to last you til the age of ${maxAge}. `;
 }
 
 console.log(calcSuppyCorrect(25, 2));
