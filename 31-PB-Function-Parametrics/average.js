@@ -5,7 +5,14 @@
 // 12 + 14 + 16 = 42
 // 42 / 3 = 14
 
-const average = () => {};
+const average = (...elmt) => {
+    let sum = 0;
+for( let i = 0; i < elmt.length; i++ ){
+    sum += parseInt( elmt[i], 10 ); 
+}
+
+return sum/elmt.length;
+};
 
 console.log(average(0)); // -> 0
 console.log(average(1, 2)); // -> 1.5
