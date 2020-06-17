@@ -8,7 +8,7 @@
 const average = (...elmt) => {
     let sum = 0;
 for( let i = 0; i < elmt.length; i++ ){
-    sum += parseInt( elmt[i], 10 ); 
+    sum +=  elmt[i]; 
 }
 
 return sum/elmt.length;
