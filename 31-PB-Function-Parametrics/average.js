@@ -8,14 +8,14 @@
 const average = (...elmt) => {
     let sum = 0;
     for (let i = 0; i < elmt.length; i++) {
-        sum += parseInt(elmt[i], 10);
+        sum += elmt[i];
     }
 
     return sum / elmt.length;
 };
 
 console.log(average(0)); // -> 0
-console.log(average(1, 2)); // -> 1.5
+console.log(average(1, 2)); // -> 1.53
 console.log(average(1, 3, 6, 10)); // -> 5
 console.log(average(12, 14, 16)); // -> 14
 
