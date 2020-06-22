@@ -12,6 +12,11 @@ console.log(3 == "3" ? true : false);
 // true, automatically String always wins
 //we need use === 
 //Then it will repeat the loop as long as the condition is true.
+//console.log(3 = "3" ? true : false); 
+//console.log(3 = "3" ? true : false); 
+//            ^
+
+//SyntaxError: Invalid left-hand side in assignment
 //2
 
 let myCat = true;

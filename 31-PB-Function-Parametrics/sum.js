@@ -2,19 +2,14 @@
 
 
 
-
-
 const sum = (...elmt) => {
     let sum1 = 0;
-for( let i = 0; i < elmt.length; i++ ){
-    sum1 +=  elmt[i]; 
-}
+    for (let i = 0; i < elmt.length; i++) {
+        sum1 += elmt[i];
+    }
 
-return sum1;
+    return sum1;
 };
-
-
-
 
 
 console.log(sum(1)); // -> 1

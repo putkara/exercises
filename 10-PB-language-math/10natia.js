@@ -65,3 +65,4 @@ let max = Math.floor(1);
 for(let i = 1; i < 6; i++) {
   console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 }
+
