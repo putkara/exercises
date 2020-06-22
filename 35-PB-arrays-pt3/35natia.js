@@ -1,3 +1,5 @@
+//1
+
 function isFourLetters(arr) {
     var result = [];
     for (var i = 0; i < arr.length; i++) {
@@ -20,4 +22,4 @@ function month(num) {
 console.log(month(3));
 console.log(month(12));
 console.log(month(6));
-console.log(month(1));// my month
+console.log(month(1)); // my month
