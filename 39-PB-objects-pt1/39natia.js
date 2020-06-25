@@ -39,3 +39,38 @@ let person2 = {
     }
 }
 console.log(person2.myMethod());
+
+console.log("## Bonus Questions");
+///**1. Convert keys and values into an array.** 
+console.log("**1. Convert keys and values into an array.** ");
+
+/*
+There is 2 whays to do it 
+let obj = {
+    A: 1,
+    B: 2,
+    C: 3
+}
+*/
+let obj = {'A':1,'B':2,'C':3}
+let result = Object.keys(obj).map(function (key) {
+    return [ (key),obj[key]];
+});
+
+console.log(result);
+
+console.log("**1. B ");
+ 
+let objectToArray = {
+    cats: 1,
+    dogs: 2, 
+    turtles: 4
+  };
+  let results = Object.keys(objectToArray).map(function (key) {
+    return [ (key),objectToArray[key]];
+});
+
+console.log(results);
+
+///**2. List Properties.**
+console.log("**2. List Properties.** ");
